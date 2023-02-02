@@ -1,4 +1,19 @@
-﻿// Создание рандомного массива
+﻿// // Создание  массива без заполненных данных
+
+// void NewArray(int[,] array)
+// {
+//     // int[,] array = new int[line, column];
+//     for (int i = 0; i < array.GetLength(0); i++)
+//     {
+//         for (int j = 0; j < array.GetLength(1); j++)
+//         {
+//             Console.Write($"{array [i,j]} ");
+//         }
+//     }
+//     Console.WriteLine();
+// }
+
+// Создание рандомного массива
 
 int[,] CreateRandomArray(int line, int column, int start, int end)
 {
@@ -45,9 +60,17 @@ void ShowArray(int[,] array)
     }
 }
 
-int[,] matr = CreateRandomArray(3, 4, -10, 10);
+
+// функиця показа массива
+
+
+// int[,] matr = CreateRandomArray(3, 4, -10, 10);
+// ShowArray(matr);
+// Console.WriteLine();
+// int[,] matr2 = CreateArray();
+// Console.WriteLine();
+// ShowArray(matr2);
+int [,] matr = new int [10,10];
 ShowArray(matr);
-Console.WriteLine();
-int[,] matr2 = CreateArray();
-Console.WriteLine();
-ShowArray(matr2);
+int [,,] matr2 = new int [2,2,2];
+ShowArray(matr);
